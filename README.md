@@ -18,6 +18,14 @@
 * save model every 100 iters:
   * `--eval_interval=100`
 
+`sample.py` arguments explained:
+
+* Number of example outputs:
+  * --num_samples=5
+* ~ Number of words ( x 0.75) 
+  * --max_new_tokens=5
+* start the output with:
+  * --start="to be"
 
 **Colab Code:**
 ```
