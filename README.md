@@ -1,8 +1,9 @@
-# nanoGPT finetuned on shakespeare
+# nanoGPT shakespeare
+### using Google Colab to finetune nanoGPT on shakespeare
 
 * [Based on karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
 
-Colab Code:
+**Colab Code:**
 ```
   # download repo
   !git clone https://github.com/karpathy/nanoGPT.git
