@@ -11,7 +11,7 @@
   * `--dtype=float32`
 * colab currently uses PyTorch 1.13.1+cu116 but compile requires PyTorch 2.0
   * `--compile=False`
-*  largest GPT that seems to work on Colab
+*  larger than `gpt2-medium` models run out of RAM (12GB) on Colab
    *  `--init_from=gpt2-medium`
 * ["smaller Transformer"](https://github.com/karpathy/nanoGPT#i-only-have-a-macbook) speeds up training significantly 
   * `--n_layer=4 --n_head=4 --n_embd=64 block_size=64 --batch_size=8`
