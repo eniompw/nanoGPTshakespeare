@@ -4,7 +4,7 @@
 * [Based on karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
 * [Example Colab](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
 
-Training argument explained:
+train.py arguments explained:
 
 * colab GPU doesn't support default bfloat16
   * `--dtype=float32`
