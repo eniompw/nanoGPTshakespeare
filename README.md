@@ -9,7 +9,7 @@ train.py arguments explained:
 
 * colab GPU doesn't support default bfloat16
   * `--dtype=float32`
-* colab currently uses PyTorch 1.13.1+cu116. compile requires PyTorch 2.0
+* colab currently uses PyTorch 1.13.1+cu116 but compile requires PyTorch 2.0
   * `--compile=False`
 *  largest GPT that seems to work on Colab
    *  `--init_from=gpt2-medium`
