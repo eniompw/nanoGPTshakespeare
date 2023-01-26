@@ -9,7 +9,9 @@ Training argument explained:
 * ["smaller Transformer"](https://github.com/karpathy/nanoGPT#i-only-have-a-macbook)
   * `--n_layer=4 --n_head=4 --n_embd=64 block_size=64 --batch_size=8`
 *  largest gpt that seems to work on Colab
-   *  `--init_from=gpt2-medium`  
+   *  `--init_from=gpt2-medium`
+* save model every 100 iters:
+  * `--eval_interval=100`
 
 
 **Colab Code:**
