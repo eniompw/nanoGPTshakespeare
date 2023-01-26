@@ -4,6 +4,12 @@
 * [Based on karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
 * [Example Colab](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
 
+Training argument explained:
+
+* ["smaller Transformer"](https://github.com/karpathy/nanoGPT#i-only-have-a-macbook)
+  *  `--n_layer=4 --n_head=4 --n_embd=64 block_size=64 --batch_size=8`
+
+
 **Colab Code:**
 ```
   # download repo
