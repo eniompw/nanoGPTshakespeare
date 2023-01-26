@@ -20,7 +20,7 @@
 
 `sample.py` arguments explained:
 
-* number of seperate example outputs:
+* number of seperate examples output:
   * `--num_samples=5`
 * ~ number of words per example to output (words ~ tokens x 0.75) 
   * `--max_new_tokens=5`
