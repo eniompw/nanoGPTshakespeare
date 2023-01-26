@@ -22,7 +22,7 @@
 
 * number of seperate example outputs:
   * `--num_samples=5`
-* ~ number of words per example to output ( x 0.75) 
+* ~ number of words per example to output (words ~ tokens x 0.75) 
   * `--max_new_tokens=5`
 * start each output example with:
   * `--start="to be"`
