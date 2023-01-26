@@ -5,8 +5,7 @@
 * [Example Jupyter Notebook on GitHub](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
 * [Example on Colab](https://colab.research.google.com/drive/1G97dn-Ivle2PgjH3MXjnkOHYOnxlrf79)
 
-**Train**
-
+**Train:** finetune gpt on the shakespere dataset  
 `!cd /content/nanoGPT/ && python train.py --dataset=shakespeare --n_layer=4 --n_head=4 --n_embd=64 --compile=False --block_size=64 --batch_size=8 --init_from=gpt2-medium --dtype=float32 --eval_interval=100`
 
 `train.py` arguments explained:
@@ -22,8 +21,7 @@
 * save model every 100 iters:
   * `--eval_interval=100`
 
-**Sample**
-
+**Sample:** view output from the saved model   
 `!cd /content/nanoGPT && python sample.py --dtype=float32 --num_samples=5 --max_new_tokens=5 --start="to be"`
 
 `sample.py` arguments explained:
