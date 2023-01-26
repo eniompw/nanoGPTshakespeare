@@ -5,7 +5,7 @@
 * [Example Jupyter Notebook on GitHub](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
 * [Example on Colab](https://colab.research.google.com/drive/1G97dn-Ivle2PgjH3MXjnkOHYOnxlrf79)
 
-train.py arguments explained:
+`train.py` arguments explained:
 
 * colab GPU doesn't support default bfloat16
   * `--dtype=float32`
