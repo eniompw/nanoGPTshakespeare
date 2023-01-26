@@ -21,11 +21,11 @@
 `sample.py` arguments explained:
 
 * number of seperate example outputs:
-  * --num_samples=5
+  * `--num_samples=5`
 * ~ number of words per example to output ( x 0.75) 
-  * --max_new_tokens=5
+  * `--max_new_tokens=5`
 * start each output example with:
-  * --start="to be"
+  * `--start="to be"`
 
 **Colab Code:**
 ```
