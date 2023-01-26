@@ -6,10 +6,14 @@
 
 Training argument explained:
 
+* colab GPU doesn't support default bfloat16
+  * --dtype=float32
+* colab currently uses PyTorch 1.13.1+cu116. compile requires PyTorch 2.0
+  * --compile=False
+*  largest GPT that seems to work on Colab
+   *  `--init_from=gpt2-medium`
 * ["smaller Transformer"](https://github.com/karpathy/nanoGPT#i-only-have-a-macbook)
   * `--n_layer=4 --n_head=4 --n_embd=64 block_size=64 --batch_size=8`
-*  largest gpt that seems to work on Colab
-   *  `--init_from=gpt2-medium`
 * save model every 100 iters:
   * `--eval_interval=100`
 
