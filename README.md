@@ -2,7 +2,8 @@
 ### using Google Colab to finetune nanoGPT on shakespeare
 
 * [Based on karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
-* [Example Colab](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
+* [Example Jupyter Notebook on GitHub](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
+* [Example on Colab](https://colab.research.google.com/drive/1G97dn-Ivle2PgjH3MXjnkOHYOnxlrf79)
 
 train.py arguments explained:
 
