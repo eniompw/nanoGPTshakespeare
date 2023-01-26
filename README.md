@@ -2,6 +2,7 @@
 ### using Google Colab to finetune nanoGPT on shakespeare
 
 * [Based on karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
+* [Example Colab](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
 
 **Colab Code:**
 ```
