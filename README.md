@@ -6,7 +6,7 @@
 * [Example Jupyter Notebook on Colab](https://colab.research.google.com/drive/1G97dn-Ivle2PgjH3MXjnkOHYOnxlrf79)
 
 ### Train: finetune GPT on the shakespere dataset  
-`!cd /content/nanoGPT/ && python train.py --dataset=shakespeare --n_layer=4 --n_head=4 --n_embd=64 --compile=False --block_size=64 --batch_size=8 --init_from=gpt2-medium --dtype=float32 --eval_interval=100 --eval_iters=100 --max_iters=300`
+`python train.py --dtype=float32 --dataset=shakespeare --compile=False --n_layer=4 --n_head=4 --n_embd=64 --block_size=64 --batch_size=8 --init_from=gpt2 --eval_interval=100 --eval_iters=100 --max_iters=300`
 
 `train.py` arguments explained:
 
