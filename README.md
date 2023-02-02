@@ -1,9 +1,10 @@
 # nanoGPT shakespeare
 ### using Google Colab to finetune nanoGPT on shakespeare
 
+* [Example Jupyter Notebook on Colab](https://colab.research.google.com/drive/1G97dn-Ivle2PgjH3MXjnkOHYOnxlrf79)
 * [Based on karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
 * [Example Jupyter Notebook on GitHub](https://github.com/eniompw/nanoGPTshakespeare/blob/main/nanoGPTshakespeare.ipynb)
-* [Example Jupyter Notebook on Colab](https://colab.research.google.com/drive/1G97dn-Ivle2PgjH3MXjnkOHYOnxlrf79)
+
 
 ### Train: finetune GPT on the shakespere dataset  
 `python train.py --dtype=float32 --dataset=shakespeare --compile=False --n_layer=4 --n_head=4 --n_embd=64 --block_size=64 --batch_size=8 --init_from=gpt2 --eval_interval=100 --eval_iters=100 --max_iters=300`
